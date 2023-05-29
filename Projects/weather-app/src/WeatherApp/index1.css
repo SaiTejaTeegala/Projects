@@ -1,0 +1,45 @@
+body{
+    background-color: #eee;
+}
+.weather{
+    display:flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+.card-body{
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 16px;
+
+
+}
+
+.style1{
+    background-color: green;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 15px;
+}
+.style2{
+    border-radius: 3px;
+    padding: 5px;
+}
+.Hot{
+    background-color: red;
+    width:50%;
+    max-width: 200px;
+    border-radius: 10px;
+
+}
+.Cold{
+    background-color: skyblue;
+    width:50%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+.card-title{
+    color:blue;
+}
